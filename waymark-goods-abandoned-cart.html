@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:v="urn:schemas-microsoft-com:vml" xmlns:o="urn:schemas-microsoft-com:office:office">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <!--[if !mso]><!-->
+  <meta name="color-scheme" content="light dark">
+  <meta name="supported-color-schemes" content="light dark">
+  <!--<![endif]-->
+  <!--[if mso]>
+  <xml>
+    <o:OfficeDocumentSettings>
+      <o:AllowPNG/>
+      <o:PixelsPerInch>96</o:PixelsPerInch>
+    </o:OfficeDocumentSettings>
+  </xml>
+  <noscript>
+  <style type="text/css">
+    table { border-collapse: collapse; }
+    .mso-hide { display: none !important; }
+  </style>
+  </noscript>
+  <![endif]-->
+  <title>Your adventure is waiting</title>
+  <style type="text/css">
+    /* ============================================
+       LAYER 1: COLOR SCHEME DECLARATION
+       (Apple Mail, iOS Mail)
+       ============================================ */
+    :root {
+      color-scheme: light dark;
+      supported-color-schemes: light dark;
+    }
+
+    /* ============================================
+       RESET STYLES
+       ============================================ */
+    body, table, td, a { -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; }
+    table, td { mso-table-lspace: 0pt; mso-table-rspace: 0pt; }
+    img { -ms-interpolation-mode: bicubic; border: 0; height: auto; line-height: 100%; outline: none; text-decoration: none; }
+    body { margin: 0; padding: 0; width: 100% !important; height: 100% !important; }
+    a[x-apple-data-detectors] { color: inherit !important; text-decoration: none !important; font-size: inherit !important; font-family: inherit !important; font-weight: inherit !important; line-height: inherit !important; }
+    u + #body a { color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit; }
+    #MessageViewBody a { color: inherit; text-decoration: none; font-size: inherit; font-family: inherit; font-weight: inherit; line-height: inherit; }
+
+    /* ============================================
+       BASE STYLES (Mobile-first)
+       ============================================ */
+    .email-body {
+      background-color: #F5F0EB;
+    }
+    .email-container {
+      background-color: #ffffff;
+      max-width: 600px;
+    }
+    .text-primary { color: #3C3C3C; }
+    .text-secondary { color: #6B6B6B; }
+    .text-muted { color: #8C8C8C; }
+    .header-bg { background-color: #ffffff; }
+    .card-bg { background-color: #F5F0EB; }
+    .footer-bg { background-color: #3C3C3C; }
+    .sage-bg { background-color: #8B9E8B; }
+    .sand-bg { background-color: #E8DDD3; }
+    .product-img { background-color: #F5F0EB; }
+
+    /* Preheader hide */
+    .preheader {
+      display: none !important;
+      visibility: hidden;
+      mso-hide: all;
+      font-size: 1px;
+      color: #F5F0EB;
+      line-height: 1px;
+      max-height: 0px;
+      max-width: 0px;
+      opacity: 0;
+      overflow: hidden;
+    }
+
+    /* Logo swap defaults */
+    .logo-dark {
+      display: none !important;
+      overflow: hidden;
+      float: left;
+      width: 0px;
+      max-height: 0px;
+      max-width: 0px;
+      line-height: 0px;
+      visibility: hidden;
+    }
+    .logo-light {
+      display: block !important;
+    }
+
+    /* Mobile-first columns */
+    .column { width: 100% !important; max-width: 100% !important; display: block !important; }
+    .column-half { width: 100% !important; max-width: 100% !important; display: block !important; }
+
+    /* Responsive CTA */
+    .cta-btn {
+      background-color: #C4653A;
+      border-radius: 6px;
+      color: #ffffff;
+      display: inline-block;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 16px;
+      font-weight: bold;
+      line-height: 48px;
+      text-align: center;
+      text-decoration: none;
+      width: 280px;
+      -webkit-text-size-adjust: none;
+    }
+    .cta-secondary {
+      color: #C4653A;
+      text-decoration: underline;
+      font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+      font-size: 14px;
+      font-weight: 600;
+    }
+
+    /* Social icon dark mode helper */
+    .social-icon-light { display: inline-block !important; }
+    .social-icon-dark { display: none !important; }
+
+    /* ============================================
+       DESKTOP MEDIA QUERY (min-width: 600px)
+       ============================================ */
+    @media only screen and (min-width: 600px) {
+      .column-half {
+        width: 280px !important;
+        max-width: 280px !important;
+        display: inline-block !important;
+        vertical-align: top;
+      }
+      .column-product-img {
+        width: 250px !important;
+        max-width: 250px !important;
+        display: inline-block !important;
+        vertical-align: top;
+      }
+      .column-product-detail {
+        width: 310px !important;
+        max-width: 310px !important;
+        display: inline-block !important;
+        vertical-align: top;
+      }
+      .column-trust {
+        width: 186px !important;
+        max-width: 186px !important;
+        display: inline-block !important;
+        vertical-align: top;
+      }
+      .mobile-full-width {
+        width: 280px !important;
+      }
+    }
+
+    /* Mobile-specific overrides */
+    @media only screen and (max-width: 599px) {
+      .email-container {
+        width: 100% !important;
+      }
+      .mobile-full-width {
+        width: 100% !important;
+        display: block !important;
+      }
+      .mobile-padding {
+        padding-left: 16px !important;
+        padding-right: 16px !important;
+      }
+      .mobile-center {
+        text-align: center !important;
+      }
+      .mobile-stack {
+        display: block !important;
+        width: 100% !important;
+        max-width: 100% !important;
+      }
+      .mobile-hidden {
+        display: none !important;
+      }
+      .hero-text {
+        font-size: 22px !important;
+      }
+    }
+
+    /* ============================================
+       LAYER 2: DARK MODE — @media prefers-color-scheme
+       (Apple Mail, iOS Mail, Outlook for Mac, some Android)
+       ============================================ */
+    @media (prefers-color-scheme: dark) {
+      /* Body & containers */
+      .email-body { background-color: #1E1E2A !important; }
+      .email-container { background-color: #262636 !important; }
+
+      /* Text */
+      .text-primary { color: #F0EDE8 !important; }
+      .text-secondary { color: #B8B0A5 !important; }
+      .text-muted { color: #9A9490 !important; }
+
+      /* Backgrounds */
+      .header-bg { background-color: #262636 !important; }
+      .card-bg { background-color: #2E2E40 !important; }
+      .footer-bg { background-color: #1A1A28 !important; }
+      .sage-bg { background-color: #6B8A6B !important; }
+      .sand-bg { background-color: #2E2E40 !important; }
+      .product-img { background-color: #2E2E40 !important; }
+
+      /* Logo swap */
+      .logo-light { display: none !important; }
+      .logo-dark {
+        display: block !important;
+        width: auto !important;
+        overflow: visible !important;
+        float: none !important;
+        max-height: inherit !important;
+        max-width: inherit !important;
+        line-height: normal !important;
+        visibility: visible !important;
+      }
+
+      /* CTA button */
+      .cta-btn { background-color: #D4754A !important; }
+      .cta-secondary { color: #D4754A !important; }
+
+      /* Borders & dividers */
+      .divider-color { border-color: #3A3A4E !important; }
+
+      /* Footer */
+      .footer-text { color: #9A9490 !important; }
+      .footer-link { color: #B8B0A5 !important; }
+
+      /* Social icons */
+      .social-icon-light { display: none !important; }
+      .social-icon-dark { display: inline-block !important; }
+
+      /* Stars */
+      .star-color { color: #D4754A !important; }
+
+      /* Series indicator */
+      .text-muted { color: #6B6B6B !important; }
+    }
+
+    /* ============================================
+       LAYER 3: DARK MODE — [data-ogsc]
+       (Outlook.com, Outlook iOS/Android apps)
+       ============================================ */
+    [data-ogsc] .email-body { background-color: #1E1E2A !important; }
+    [data-ogsc] .email-container { background-color: #262636 !important; }
+    [data-ogsc] .text-primary { color: #F0EDE8 !important; }
+    [data-ogsc] .text-secondary { color: #B8B0A5 !important; }
+    [data-ogsc] .text-muted { color: #9A9490 !important; }
+    [data-ogsc] .header-bg { background-color: #262636 !important; }
+    [data-ogsc] .card-bg { background-color: #2E2E40 !important; }
+    [data-ogsc] .footer-bg { background-color: #1A1A28 !important; }
+    [data-ogsc] .sage-bg { background-color: #6B8A6B !important; }
+    [data-ogsc] .sand-bg { background-color: #2E2E40 !important; }
+    [data-ogsc] .product-img { background-color: #2E2E40 !important; }
+    [data-ogsc] .logo-light { display: none !important; }
+    [data-ogsc] .logo-dark {
+      display: block !important;
+      width: auto !important;
+      overflow: visible !important;
+      float: none !important;
+      max-height: inherit !important;
+      max-width: inherit !important;
+      line-height: normal !important;
+      visibility: visible !important;
+    }
+    [data-ogsc] .cta-btn { background-color: #D4754A !important; }
+    [data-ogsc] .cta-secondary { color: #D4754A !important; }
+    [data-ogsc] .footer-text { color: #9A9490 !important; }
+    [data-ogsc] .footer-link { color: #B8B0A5 !important; }
+  </style>
+</head>
+
+<body id="body" class="email-body" style="margin:0; padding:0; word-spacing:normal; background-color:#F5F0EB;">
+
+  <!-- PREHEADER TEXT (hidden) -->
+  <div class="preheader" style="display:none !important; visibility:hidden; mso-hide:all; font-size:1px; color:#F5F0EB; line-height:1px; max-height:0px; max-width:0px; opacity:0; overflow:hidden;">
+    The Heritage Weekender is saved in your cart for 48 hours. Free shipping on orders $75+.
+    &#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;&#847;&zwnj;&nbsp;&#8199;&shy;
+  </div>
+
+  <!-- WRAPPER TABLE -->
+  <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="email-body" style="background-color:#F5F0EB;">
+    <tr>
+      <td align="center" valign="top" style="padding:0;">
+
+        <!-- =============================================
+             SECTION A: FREE SHIPPING BANNER
+             ============================================= -->
+        <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0" class="sage-bg" style="background-color:#8B9E8B;">
+          <tr>
+            <td align="center" style="padding:10px 20px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px; line-height:16px; color:#ffffff; letter-spacing:0.5px; text-transform:uppercase;">
+              &#9733;&nbsp;&nbsp;FREE SHIPPING ON ORDERS $75+&nbsp;&nbsp;&#9733;
+            </td>
+          </tr>
+        </table>
+
+        <!-- EMAIL CONTAINER (600px) -->
+        <!--[if mso]>
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="600" align="center" style="width:600px;">
+        <tr>
+        <td>
+        <![endif]-->
+        <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%" class="email-container" style="margin:0 auto; max-width:600px; background-color:#ffffff;">
+
+          <!-- =============================================
+               SECTION B: HEADER (Logo + Navigation)
+               ============================================= -->
+          <tr>
+            <td class="header-bg" style="background-color:#ffffff; padding:20px 20px 16px 20px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <!-- LOGO (Left) -->
+                  <td align="left" valign="middle" style="width:160px;">
+                    <!-- Light mode logo (visible by default) -->
+                    <img class="logo-light" src="https://via.placeholder.com/320x80/3C3C3C/3C3C3C?text=WAYMARK+GOODS" width="160" height="40" alt="Waymark Goods" style="display:block; border:0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:18px; font-weight:bold; color:#3C3C3C; letter-spacing:2px;" />
+                    <!-- Dark mode logo (hidden by default) -->
+                    <!--[if !mso]><!-->
+                    <div class="logo-dark" style="display:none; overflow:hidden; float:left; width:0px; max-height:0px; max-width:0px; line-height:0px; visibility:hidden;">
+                      <img src="https://via.placeholder.com/320x80/F0EDE8/F0EDE8?text=WAYMARK+GOODS" width="160" height="40" alt="Waymark Goods" style="display:block; border:0;" />
+                    </div>
+                    <!--<![endif]-->
+                  </td>
+                  <!-- NAV LINKS (Right) — desktop only -->
+                  <td align="right" valign="middle" class="mobile-hidden" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px;">
+                    <a href="#" class="text-secondary" style="color:#6B6B6B; text-decoration:none; padding:0 8px;">Shop</a>
+                    <a href="#" class="text-secondary" style="color:#6B6B6B; text-decoration:none; padding:0 8px;">New Arrivals</a>
+                    <a href="#" style="color:#C4653A; text-decoration:none; padding:0 0 0 8px; font-weight:600;">Sale</a>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               SECTION C: HERO IMAGE + HEADLINE
+               ============================================= -->
+          <tr>
+            <td style="padding:0; position:relative;">
+              <!-- Hero image: leather weekender on travel background -->
+              <img src="https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200&h=600&fit=crop&crop=center" width="600" height="300" alt="Premium leather weekender bag ready for your next adventure" style="display:block; width:100%; max-width:600px; height:auto; border:0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; color:#3C3C3C; background-color:#E8DDD3;" />
+            </td>
+          </tr>
+          <!-- Hero text overlay bar -->
+          <tr>
+            <td class="card-bg" style="background-color:#F5F0EB; padding:32px 30px 24px 30px;" align="center">
+              <h1 class="text-primary hero-text" style="margin:0 0 12px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:26px; line-height:32px; font-weight:700; color:#3C3C3C; letter-spacing:-0.3px;">
+                Your Weekender is packed and ready
+              </h1>
+              <p class="text-secondary" style="margin:0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:24px; color:#6B6B6B;">
+                It&rsquo;s not going anywhere yet&mdash;but your cart expires in 48 hours.<br>Pick up where you left off.
+              </p>
+            </td>
+          </tr>
+
+          <!-- Subtle divider -->
+          <tr>
+            <td style="padding:0 30px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr><td class="divider-color" style="border-bottom:1px solid #E8DDD3; font-size:1px; line-height:1px;">&nbsp;</td></tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               SECTION D: CART ITEM CARD
+               ============================================= -->
+          <tr>
+            <td style="padding:28px 20px 24px 20px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:11px; line-height:16px; text-transform:uppercase; letter-spacing:1.5px; color:#8C8C8C; padding-bottom:16px;" class="text-muted mobile-padding">
+                    Your Cart (1 item)
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Product card: 2-column desktop / stacked mobile -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="center" style="font-size:0; padding:0;">
+                    <!--[if mso]>
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="560">
+                    <tr>
+                    <td valign="top" width="250" style="width:250px;">
+                    <![endif]-->
+                    <!-- PRODUCT IMAGE COLUMN -->
+                    <div class="column-product-img" style="display:inline-block; width:100%; max-width:250px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" class="product-img" style="padding:10px; background-color:#F5F0EB; border-radius:8px;">
+                            <!-- Product cutout on transparent bg — critical for dark mode demo -->
+                            <img src="https://images.unsplash.com/photo-1548036328-c9fa89d128fa?w=500&h=500&fit=crop&crop=center" width="230" height="230" alt="Heritage Weekender bag in Saddle Tan — full-grain vegetable-tanned leather" style="display:block; width:100%; max-width:230px; height:auto; border:0; border-radius:4px; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px; color:#3C3C3C;" />
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    <td valign="top" width="310" style="width:310px;">
+                    <![endif]-->
+                    <!-- PRODUCT DETAILS COLUMN -->
+                    <div class="column-product-detail" style="display:inline-block; width:100%; max-width:310px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td style="padding:16px 10px 10px 20px;" class="mobile-padding">
+                            <p class="text-primary" style="margin:0 0 4px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:18px; line-height:24px; font-weight:700; color:#3C3C3C;">
+                              Heritage Weekender
+                            </p>
+                            <p class="text-secondary" style="margin:0 0 16px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px; line-height:20px; color:#6B6B6B;">
+                              Saddle Tan&nbsp;&nbsp;|&nbsp;&nbsp;Qty: 1
+                            </p>
+                            <p class="text-primary" style="margin:0 0 6px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:24px; line-height:30px; font-weight:700; color:#3C3C3C;">
+                              $189.00
+                            </p>
+                            <p class="text-secondary" style="margin:0 0 20px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px; line-height:20px; color:#6B6B6B;">
+                              Full-grain vegetable-tanned leather. Fits airline carry-on requirements. Lifetime warranty.
+                            </p>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+
+              <!-- CTA BUTTON — Bulletproof VML for Outlook + CSS for all others -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="center" style="padding:8px 0 0 0;">
+                    <!--[if mso]>
+                    <v:roundrect xmlns:v="urn:schemas-microsoft-com:vml" xmlns:w="urn:schemas-microsoft-com:office:word" href="#" style="height:48px;v-text-anchor:middle;width:280px;" arcsize="11%" strokecolor="#C4653A" fillcolor="#C4653A">
+                      <w:anchorlock/>
+                      <center style="color:#ffffff;font-family:'Helvetica Neue',Helvetica,Arial,sans-serif;font-size:16px;font-weight:bold;">Complete Your Order</center>
+                    </v:roundrect>
+                    <![endif]-->
+                    <!--[if !mso]><!-->
+                    <a href="#" class="cta-btn mobile-full-width" style="background-color:#C4653A; border-radius:6px; color:#ffffff; display:inline-block; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; font-weight:bold; line-height:48px; text-align:center; text-decoration:none; width:280px; -webkit-text-size-adjust:none; mso-hide:all;">
+                      Complete Your Order
+                    </a>
+                    <!--<![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               SECTION E: URGENCY & TRUST STRIP
+               ============================================= -->
+          <tr>
+            <td class="card-bg" style="background-color:#F5F0EB; padding:24px 10px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="center" style="font-size:0;">
+                    <!--[if mso]>
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="560">
+                    <tr>
+                    <td valign="top" width="186" style="width:186px;">
+                    <![endif]-->
+                    <!-- Trust item 1: Clock -->
+                    <div class="column-trust" style="display:inline-block; width:100%; max-width:186px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" style="padding:12px 10px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center" style="padding-bottom:8px; font-size:22px; line-height:22px;">
+                                  &#9201;
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" class="text-primary" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:600; color:#3C3C3C;">
+                                  Items saved for<br>48 hours
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    <td valign="top" width="186" style="width:186px;">
+                    <![endif]-->
+                    <!-- Trust item 2: Shield -->
+                    <div class="column-trust" style="display:inline-block; width:100%; max-width:186px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" style="padding:12px 10px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center" style="padding-bottom:8px; font-size:22px; line-height:22px;">
+                                  &#128737;
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" class="text-primary" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:600; color:#3C3C3C;">
+                                  Free returns<br>within 30 days
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    <td valign="top" width="186" style="width:186px;">
+                    <![endif]-->
+                    <!-- Trust item 3: Truck -->
+                    <div class="column-trust" style="display:inline-block; width:100%; max-width:186px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" style="padding:12px 10px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                              <tr>
+                                <td align="center" style="padding-bottom:8px; font-size:22px; line-height:22px;">
+                                  &#128666;
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" class="text-primary" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; font-weight:600; color:#3C3C3C;">
+                                  Free shipping<br>on orders $75+
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               OBJECTION HANDLER: Reassurance micro-section
+               ============================================= -->
+          <tr>
+            <td style="padding:0 30px 24px 30px;" align="center">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="center" class="sand-bg" style="background-color:#E8DDD3; border-radius:8px; padding:20px 24px;">
+                    <p class="text-primary" style="margin:0 0 6px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:15px; line-height:22px; font-weight:700; color:#3C3C3C;">
+                      Not sure yet? No pressure.
+                    </p>
+                    <p class="text-secondary" style="margin:0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px; line-height:22px; color:#6B6B6B;">
+                      Every Waymark product ships with free 30-day returns and a lifetime warranty. Try it&mdash;if it&rsquo;s not right, send it back at no cost.
+                      <a href="#" class="cta-secondary" style="color:#C4653A; text-decoration:none; font-weight:600; border-bottom:1px solid #C4653A;">Learn more</a>
+                    </p>
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- Divider -->
+          <tr>
+            <td style="padding:0 30px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr><td class="divider-color" style="border-bottom:1px solid #E8DDD3; font-size:1px; line-height:1px;">&nbsp;</td></tr>
+              </table>
+            </td>
+          </tr>
+          <!-- =============================================
+               SECTION F: SECONDARY PRODUCT RECOMMENDATIONS
+               ============================================= -->
+          <tr>
+            <td style="padding:28px 20px 24px 20px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="center" class="text-primary" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:18px; line-height:24px; font-weight:700; color:#3C3C3C; padding-bottom:4px;">
+                    Complete the Set
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="text-secondary" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:14px; line-height:20px; color:#6B6B6B; padding-bottom:20px;">
+                    Add both and get free shipping&mdash;your cart is already at $189
+                  </td>
+                </tr>
+              </table>
+
+              <!-- Two recommendation cards -->
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                <tr>
+                  <td align="center" style="font-size:0;">
+                    <!--[if mso]>
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="560">
+                    <tr>
+                    <td valign="top" width="270" style="width:270px;">
+                    <![endif]-->
+                    <!-- Recommendation 1: Passport Folio -->
+                    <div class="column-half" style="display:inline-block; width:100%; max-width:270px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" style="padding:8px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td align="center" class="product-img" style="background-color:#F5F0EB; border-radius:8px; padding:16px;">
+                                  <img src="https://images.unsplash.com/photo-1627123424574-724758594e93?w=520&h=520&fit=crop&crop=center" width="200" height="200" alt="Passport Folio in Saddle Tan" style="display:block; width:100%; max-width:200px; height:auto; border:0; border-radius:4px;" />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding:12px 4px 4px 4px;">
+                                  <p class="text-primary" style="margin:0 0 4px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:15px; line-height:20px; font-weight:600; color:#3C3C3C;">
+                                    Passport Folio
+                                  </p>
+                                  <p class="text-secondary" style="margin:0 0 2px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; color:#6B6B6B;">
+                                    Saddle Tan
+                                  </p>
+                                  <p class="text-primary" style="margin:0 0 10px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:22px; font-weight:700; color:#3C3C3C;">
+                                    $49.00
+                                  </p>
+                                  <a href="#" class="cta-secondary" style="color:#C4653A; text-decoration:none; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; border-bottom:1.5px solid #C4653A;">
+                                    Shop Now
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    <td valign="top" width="270" style="width:270px;">
+                    <![endif]-->
+                    <!-- Recommendation 2: Packing Cube Set -->
+                    <div class="column-half" style="display:inline-block; width:100%; max-width:270px; vertical-align:top;">
+                      <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+                        <tr>
+                          <td align="center" style="padding:8px;">
+                            <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                              <tr>
+                                <td align="center" class="product-img" style="background-color:#F5F0EB; border-radius:8px; padding:16px;">
+                                  <img src="https://images.unsplash.com/photo-1581888227599-779811939961?w=520&h=520&fit=crop&crop=center" width="200" height="200" alt="Packing Cube Set, 3-piece in matching canvas" style="display:block; width:100%; max-width:200px; height:auto; border:0; border-radius:4px;" />
+                                </td>
+                              </tr>
+                              <tr>
+                                <td align="center" style="padding:12px 4px 4px 4px;">
+                                  <p class="text-primary" style="margin:0 0 4px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:15px; line-height:20px; font-weight:600; color:#3C3C3C;">
+                                    Packing Cube Set
+                                  </p>
+                                  <p class="text-secondary" style="margin:0 0 2px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; color:#6B6B6B;">
+                                    3-Piece
+                                  </p>
+                                  <p class="text-primary" style="margin:0 0 10px 0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:16px; line-height:22px; font-weight:700; color:#3C3C3C;">
+                                    $35.00
+                                  </p>
+                                  <a href="#" class="cta-secondary" style="color:#C4653A; text-decoration:none; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; font-weight:600; letter-spacing:0.5px; text-transform:uppercase; border-bottom:1.5px solid #C4653A;">
+                                    Shop Now
+                                  </a>
+                                </td>
+                              </tr>
+                            </table>
+                          </td>
+                        </tr>
+                      </table>
+                    </div>
+                    <!--[if mso]>
+                    </td>
+                    </tr>
+                    </table>
+                    <![endif]-->
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               SECTION G: SOCIAL PROOF / TESTIMONIAL
+               ============================================= -->
+          <tr>
+            <td class="sand-bg" style="background-color:#E8DDD3; padding:32px 30px;" align="center">
+              <table role="presentation" cellspacing="0" cellpadding="0" border="0" width="100%">
+                <tr>
+                  <td align="center" style="padding-bottom:16px;">
+                    <!-- Star rating -->
+                    <span class="star-color" style="font-size:18px; color:#C4653A; letter-spacing:3px;">&#9733;&#9733;&#9733;&#9733;&#9733;</span>
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="text-primary" style="font-family:Georgia,'Times New Roman',serif; font-size:16px; line-height:26px; font-style:italic; color:#3C3C3C; padding-bottom:14px;">
+                    &ldquo;This bag has been on every trip with me for two years. The leather just gets better with age. Absolutely worth it.&rdquo;
+                  </td>
+                </tr>
+                <tr>
+                  <td align="center" class="text-secondary" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:18px; color:#6B6B6B; font-weight:600;">
+                    &mdash;&nbsp;Sarah M., Verified Buyer
+                  </td>
+                </tr>
+              </table>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               SERIES INDICATOR
+               ============================================= -->
+          <tr>
+            <td align="center" style="padding:16px 30px 0 30px;">
+              <p class="text-muted" style="margin:0; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:11px; line-height:16px; color:#8C8C8C; letter-spacing:0.5px;">
+                &#9679;&nbsp;&nbsp;&#9675;&nbsp;&nbsp;&#9675;&nbsp;&nbsp;&mdash;&nbsp;&nbsp;Email 1 of 3
+              </p>
+            </td>
+          </tr>
+
+          <!-- =============================================
+               SECTION H: FOOTER
+               ============================================= -->
+          <tr>
+            <td class="footer-bg" style="background-color:#3C3C3C; padding:32px 30px 24px 30px;">
+              <table role="presentation" width="100%" cellspacing="0" cellpadding="0" border="0">
+
+                <!-- Social Icons Row -->
+                <tr>
+                  <td align="center" style="padding-bottom:20px;">
+                    <table role="presentation" cellspacing="0" cellpadding="0" border="0">
+                      <tr>
+                        <!-- Instagram -->
+                        <td style="padding:0 8px;">
+                          <a href="#" style="text-decoration:none;">
+                            <img src="https://via.placeholder.com/48x48/888888/ffffff?text=IG" width="24" height="24" alt="Instagram" style="display:block; border:0; border-radius:4px;" />
+                          </a>
+                        </td>
+                        <!-- Facebook -->
+                        <td style="padding:0 8px;">
+                          <a href="#" style="text-decoration:none;">
+                            <img src="https://via.placeholder.com/48x48/888888/ffffff?text=FB" width="24" height="24" alt="Facebook" style="display:block; border:0; border-radius:4px;" />
+                          </a>
+                        </td>
+                        <!-- Pinterest -->
+                        <td style="padding:0 8px;">
+                          <a href="#" style="text-decoration:none;">
+                            <img src="https://via.placeholder.com/48x48/888888/ffffff?text=PI" width="24" height="24" alt="Pinterest" style="display:block; border:0; border-radius:4px;" />
+                          </a>
+                        </td>
+                        <!-- X / Twitter -->
+                        <td style="padding:0 8px;">
+                          <a href="#" style="text-decoration:none;">
+                            <img src="https://via.placeholder.com/48x48/888888/ffffff?text=X" width="24" height="24" alt="X (Twitter)" style="display:block; border:0; border-radius:4px;" />
+                          </a>
+                        </td>
+                      </tr>
+                    </table>
+                  </td>
+                </tr>
+
+                <!-- Company address -->
+                <tr>
+                  <td align="center" class="footer-text" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:13px; line-height:20px; color:#A0A0A0; padding-bottom:12px;">
+                    Waymark Goods, 118 Pioneer St, Portland, OR 97201
+                  </td>
+                </tr>
+
+                <!-- Footer links -->
+                <tr>
+                  <td align="center" style="padding-bottom:16px;">
+                    <a href="#" class="footer-link" style="color:#C4C4C4; text-decoration:underline; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px;">Unsubscribe</a>
+                    <span class="footer-text" style="color:#666666;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a href="#" class="footer-link" style="color:#C4C4C4; text-decoration:underline; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px;">Manage Preferences</a>
+                    <span class="footer-text" style="color:#666666;">&nbsp;&nbsp;|&nbsp;&nbsp;</span>
+                    <a href="#" class="footer-link" style="color:#C4C4C4; text-decoration:underline; font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:12px;">Privacy Policy</a>
+                  </td>
+                </tr>
+
+                <!-- Legal / copyright -->
+                <tr>
+                  <td align="center" class="footer-text" style="font-family:'Helvetica Neue',Helvetica,Arial,sans-serif; font-size:11px; line-height:18px; color:#888888;">
+                    &copy; 2026 Waymark Goods. All rights reserved.<br>
+                    You&rsquo;re receiving this email because you created an account at waymarkgoods.com.
+                  </td>
+                </tr>
+
+              </table>
+            </td>
+          </tr>
+
+        </table>
+        <!-- END EMAIL CONTAINER -->
+        <!--[if mso]>
+        </td>
+        </tr>
+        </table>
+        <![endif]-->
+
+      </td>
+    </tr>
+  </table>
+
+</body>
+</html>
